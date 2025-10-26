@@ -236,7 +236,7 @@ public final class Engine {
 			
 			sm.loadTexture("temDefault", "sources/spritesheet.png");
 			sm.loadTexture("icon", "sources/icon.png");
-			sm.loadShader("default", "com/gameengine/graphics/assets/shaders/default.glsl");
+			sm.loadShader("default", "sources/shaders/default.glsl");
 		} catch (IOException | ShaderException  e) {
 			e.printStackTrace();
 			System.exit(0xFFFFFF);

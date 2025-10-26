@@ -33,7 +33,7 @@ public class EditorDebugDraw {
 	private static int vboID;
 	
 	public static void load() throws IOException, ShaderException {
-		GameEngineManager.sourceManager().loadShader("editor-debugdraw", "com/gameengine/graphics/assets/shaders/editordebugdraw.glsl");
+		GameEngineManager.sourceManager().loadShader("editor-debugdraw", "sources/shaders/editordebugdraw.glsl");
 		shader = GameEngineManager.sourceManager().getShader("editor-debugdraw");
 		
 		vaoID = GL30.glGenVertexArrays();
